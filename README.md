@@ -18,13 +18,14 @@
 <p align="center">
 Do star the Expense Tracker Application (Vanilla JS) repository ✨✨✨
 </p>
-
 <br>
 
 <p align="center">☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷</p>
 
 
 # Expense Tracker Application (vanilla JS)
+
+<img src="https://user-images.githubusercontent.com/71268165/193805541-ed26555c-f939-4491-9232-3f74a9d15e9d.jpg" height="600px" />
 
 A simple Expense Tracker 
 
