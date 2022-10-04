@@ -1,6 +1,6 @@
 # Contributing
 
-[Expense-tracker-vanilla](https://github.com/DecodersCommunity/expense-tracker-vanilla) is is [MIT](https://github.com/DecodersCommunity/note-taking-application-reactjs/blob/main/LICENSE) licensed and accepts contributions via GitHub pull requests. This document outlines some of the conventions on development workflow, commit message formatting, contact points, and other resources to make it easier to get your contribution accepted.
+[Expense-tracker-vanilla](https://github.com/DecodersCommunity/expense-tracker-vanilla) is [MIT](https://github.com/DecodersCommunity/note-taking-application-reactjs/blob/main/LICENSE) licensed and accepts contributions via GitHub pull requests. This document outlines some of the conventions on development workflow, commit message formatting, contact points, and other resources to make it easier to get your contribution accepted.
 
 ## Getting Started
 
