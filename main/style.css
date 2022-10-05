@@ -86,7 +86,6 @@ select {
 .secondRow {
     display: flex;
     gap: 30px;
-    /* justify-content: center; */
 }
 
 button {
@@ -137,4 +136,68 @@ thead {
 a {
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+/* Media Quries */
+
+@media screen and (max-width:1464px) {
+    .expenseBody {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .expenseBody {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .expenseBody {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .content {
+        padding: 50px 20px;
+    }
+
+    .firstRow,
+    .secondRow {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .firstRow,
+    .secondRow {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .secFormLine {
+        gap: 10px;
+    }
+
+    input,
+    select {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    input,
+    select {
+        width: 200px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
 }
