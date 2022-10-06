@@ -1,31 +1,47 @@
 * {
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: #042159;
-    color: #77D9AB;
+    background: white;
+}
+
+.expenseBody {
+    width: 50%;
+    max-width: 750px;
+    margin: 0 auto;
+    box-shadow: rgba(125, 125, 131, 0.87) 0px 7px 29px 0px;
 }
 
 .title {
-    width: 500px;
-    color: #0869A6;
-    margin: 3% auto;
+    color: rgba(0, 0, 0, 0.687);
+    margin: 3% 0;
+    text-align: center;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.redTitle {
+    color: red;
+}
+
+.greenTitle {
+    color: #2c974b;
 }
 
 .content {
-    width: 580px;
-    margin: 0 auto;
-    background-color: #0869A6;
-    padding: 3%;
-    padding-left: 6%;
+    background-color: white;
+    padding: 50px 100px;
 }
 
 .secondTitle {
-    text-align: left;
-    margin: 2% 0;
-    font-weight: 100;
+    margin: 20px 0;
+    font-size: 25px;
+    color: tomato;
 }
 
 .form {
@@ -33,51 +49,155 @@ body {
 }
 
 .formLine {
-    display: inline-flex;
-    padding: 5px 0px;
+    display: flex;
+    gap: 10px;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-    margin-right: 100px;
+.secFormLine {
+    gap: 23px;
 }
 
 input,
 select {
-    width: 130px;
-    margin-left: 10px;
+    outline: none;
+    /* border: none; */
+    border-radius: 3px;
+    padding: 5px 8px;
+    width: 200px;
+    height: 35px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+#expForm {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.formBody {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.firstRow,
+.secondRow {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    text-align: center;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #2c974b;
+}
+
 
 /* table style */
 table {
     width: 100%;
+    text-align: center;
 }
 
 thead {
-    background-color: #042159;
-    line-height: 30px;
+    line-height: 35px;
+    background-color: #2ea44f;
+    color: white;
+}
+
+.deleteButton {
+    color: red;
 }
 
 /* Button */
 
-button {
-    width: 200px;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.1em;
-    line-height: 20px;
-    background-color: #04BF8A;
-    border-radius: 5px;
-    margin: 14px 25%;
-    cursor: pointer;
+.formBtn {
+    display: flex;
+    justify-content: center;
 }
 
 a {
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+/* Media Quries */
+
+@media screen and (max-width:1464px) {
+    .expenseBody {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .expenseBody {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .expenseBody {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .content {
+        padding: 50px 20px;
+    }
+
+    .firstRow,
+    .secondRow {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .firstRow,
+    .secondRow {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .secFormLine {
+        gap: 10px;
+    }
+
+    input,
+    select {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    input,
+    select {
+        width: 200px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
 }
