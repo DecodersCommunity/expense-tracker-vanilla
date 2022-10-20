@@ -6,7 +6,7 @@
 }
 
 body {
-    background: white;
+    background: #EDE4E0;
 }
 
 .expenseBody {
@@ -21,7 +21,7 @@ body {
     margin: 3% 0;
     text-align: center;
     font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 37px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -64,7 +64,7 @@ select {
     border-radius: 3px;
     padding: 5px 8px;
     width: 200px;
-    height: 35px;
+    height: 40px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
