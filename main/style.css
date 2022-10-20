@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
@@ -41,7 +41,7 @@ body {
 .secondTitle {
     margin: 20px 0;
     font-size: 25px;
-    color: tomato;
+    color: red;
 }
 
 .form {
@@ -87,7 +87,7 @@ select {
     display: flex;
     gap: 30px;
 }
-
+/*button style*/
 button {
     text-align: center;
     background-color: #2ea44f;
