@@ -63,8 +63,8 @@ select {
     /* border: none; */
     border-radius: 3px;
     padding: 5px 8px;
-    width: 200px;
-    height: 35px;
+    width: 190px;
+    height: 30px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -123,7 +123,7 @@ thead {
 }
 
 .deleteButton {
-    color: red;
+    color: orange;
 }
 
 /* Button */
