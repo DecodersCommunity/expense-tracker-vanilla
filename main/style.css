@@ -40,12 +40,12 @@ body {
 
 .secondTitle {
     margin: 20px 0;
-    font-size: 25px;
+    font-size: 26px;
     color: tomato;
 }
 
 .form {
-    padding: 5px;
+    padding: 6px;
 }
 
 .formLine {
@@ -54,7 +54,7 @@ body {
 }
 
 .secFormLine {
-    gap: 23px;
+    gap: 22px;
 }
 
 input,
@@ -62,7 +62,7 @@ select {
     outline: none;
     /* border: none; */
     border-radius: 3px;
-    padding: 5px 8px;
+    padding: 5px 7px;
     width: 200px;
     height: 35px;
     -moz-box-sizing: border-box;
@@ -198,6 +198,6 @@ a {
     }
 
     .title {
-        font-size: 25px;
+        font-size: 26px;
     }
 }
