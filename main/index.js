@@ -37,7 +37,7 @@ const showExpenses = () => {
 
     for (let i = 0; i < expenses.length; i++) {
         expenseTable.innerHTML += `
-            <tr>
+            <tr class="centerElement">
                 <td>${expenses[i].type}</td>
                 <td>${expenses[i].name}</td>
                 <td>${expenses[i].date}</td>
