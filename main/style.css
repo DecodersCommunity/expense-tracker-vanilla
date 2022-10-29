@@ -126,6 +126,10 @@ thead {
     color: red;
 }
 
+.centerElement {
+    text-align = center;
+ }
+
 /* Button */
 
 .formBtn {
